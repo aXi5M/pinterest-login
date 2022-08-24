@@ -88,7 +88,7 @@ input[type=password], select {
     text-decoration: none;
     display: inline-block;
     font-size: 15px;
-    margin: 4px 2px;
+    margin: 4px auto;
     cursor: pointer;
 }
 
@@ -118,7 +118,7 @@ input[type=password], select {
     background-color: #5086ec;
     border: none;
     color: white;
-    padding: 14px 102px;
+    padding: 14px 100px;
     border-radius: 8px;
     text-align: center;
     text-decoration: none;
