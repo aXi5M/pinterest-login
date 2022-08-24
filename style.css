@@ -1,0 +1,133 @@
+body {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    background-color: #fff;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+p{
+    font-size: 13px;
+}
+
+.paragraph { 
+    color: #404040;
+    font-size: 13px;
+    font-weight: 800;
+}
+
+h6 {
+    line-height: 1.5;
+    font-weight: 800;
+    margin: 10px auto;
+}
+
+a {
+    text-decoration: none;
+    position: relative;
+}
+
+/* Sign-In */
+
+.logo {
+    max-width: 50px;
+}
+
+.login--container {
+    width: 365px;
+    height: 575px;
+    padding: 30px;
+    margin: 150px auto;
+    border-radius: 25px;
+    text-align: center;
+    box-shadow:
+    rgba(0, 0, 0, 0.25) 0px 54px 55px, 
+    rgba(0, 0, 0, 0.12) 0px -12px 30px,
+    rgba(0, 0, 0, 0.12) 0px 4px 6px, 
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, 
+    rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    background-color: #fff;
+}
+
+input[type=email], select {
+    font-size: 15px;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    box-shadow:0 0 0 1px #404040;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type=password], select {
+    font-size: 15px;
+    width: 100%;
+    padding: 12px 20px;
+    margin-top: 8px;
+    margin-left: 0;
+    display: inline-block;
+    box-shadow:0 0 0 1px #404040;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.button {
+    background-color: #ff0000;
+    border: none;
+    color: white;
+    padding: 14px 145px;
+    border-radius: 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #7f0000;
+}
+
+.facebook {
+    background-color: #5086ec;
+    border: none;
+    color: white;
+    padding: 15px 90px;
+    border-radius: 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.facebook:hover {
+    background-color: #3875e8;
+}
+
+.google {
+    background-color: #5086ec;
+    border: none;
+    color: white;
+    padding: 14px 99px;
+    border-radius: 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.google:hover{
+    background-color: #3875e8;
+}
+
+hr {
+    margin: 0 55px;
+    border-top: 2px solid black;
+}
